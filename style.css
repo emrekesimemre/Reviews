@@ -61,9 +61,18 @@ hr{
 .next-btn{
     border: none;
     margin-left: 1rem;
-    color: turquoise;
+    color: rgb(158, 214, 209);
     margin: 1rem .5rem; 
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+.back-btn:hover{
+    color:rgb(11, 122, 113)
+}
+.next-btn:hover{
+    color:rgb(11, 122, 113)
 }
 
 .random-btn{
@@ -71,10 +80,16 @@ hr{
     height: 1.8rem;
     margin-bottom: 2rem;
     border-radius: 10px;
-    background-color: rgb(182, 229, 226);
+    background-color: #fff;
     color:rgb(11, 122, 113);
     text-transform: capitalize;
     border: solid 2px rgb(11, 122, 113);
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+.random-btn:hover{
+    background-color: rgb(37, 126, 228);
+    color: black;
 }
 
 .fName{
